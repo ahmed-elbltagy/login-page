@@ -76,7 +76,7 @@ header nav ul a{
   position: relative;
   display: flex;
   justify-content: center;
-  height:100vh;
+  height: 100vh;
   background-image: url(../imges/login-2.jpg);
   background-size: cover;
 }
@@ -123,9 +123,11 @@ input::placeholder{
   color: #a1b1e3;
   margin-left: 6px;
   transition: .5s;
+    text-transform:capitalize;
 }
 .content form :nth-child(4) a:hover{
   color: #989797;
+  
 }
 form .last{
   margin-top: 10px;
