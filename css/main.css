@@ -76,7 +76,7 @@ header nav ul a{
   position: relative;
   display: flex;
   justify-content: center;
-  height:520px;
+  height:100vh;
   background-image: url(../imges/login-2.jpg);
   background-size: cover;
 }
