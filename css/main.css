@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding:0px;
-  text-transform:capitalize;
   font-family: 'Cairo', sans-serif;
 }
 a{
@@ -13,6 +12,7 @@ a{
   --second-color:#232946;
 }
 header{
+  text-transform:capitalize;
   padding:10px 20px;
   position:sticky;
   z-index: 10;
@@ -132,11 +132,16 @@ form .last{
   margin-left: 20px;
 }
 form .last input {
+  font-size: 16px;
+  text-transform:capitalize;
+  border: 1px solid white;
   width: 100px;
   transition: .3s;
   margin:0 1px;
+  color: #c4c1c1;
 }
 form .last input:hover{
+  border: 1px solid #a1b1e3;
   cursor:pointer;
   color:#a1b1e3;
 }
