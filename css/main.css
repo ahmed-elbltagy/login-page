@@ -148,12 +148,13 @@ form .last input:hover{
   color:#a1b1e3;
 }
 label{
+  font-size: 20px;
   cursor: pointer;
   color: #c4c1c1;
 }
 .content form .checkbox{
   margin-top: 10px;
-  margin-left: -60px;
+  margin-left: -37px;
 }
 .content form .checkbox label{
   margin-left: -10px;
