@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/webfont/1.6.28/webfontloader.js"
-    integrity="sha512-v/wOVTkoU7mXEJC3hXnw9AA6v32qzpknvuUF6J2Lbkasxaxn2nYcl+HGB7fr/kChGfCqubVr1n2sq1UFu3Gh1w=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
-  <link rel="stylesheet" href="css/main.css" />
-  <title>Log In</title>
-</head>
-
-<body>
-  <div class="body">
-    <header class="header">
-      <div class="logo"> LOGO</div>
-      <nav class="nav">
-        <ul class="ul">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="icon" href="imges/logo-1.jpg">
+    <title>Log In</title>
+  </head>
+  <body>
+      <header>
+        <a href="#"><img src="imges/logo-1.jpg" alt="" width="100px"></a>
+        <nav>
+          <div class="icon"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+          <ul>
           <li><a href="#">home</a></li>
           <li><a href="">servies</a></li>
-          <li><a href="">progect</a></li>
-          <li><a href="">contact me</a></li>
+          <li><a href="">project</a></li>
+          <li><a href="">contact</a></li>
         </ul>
       </nav>
-    </header>
-    <main class="main">
-      <div class="h">log-in </div>
-      <div class="form">
+      </header>
+      
+      <div class="content">
         <form>
-          <label for="un" class="us"><i class="fa-solid fa-user "></i> </label><br />
-          <input type="text" id="un" autofocus required minlength="7" maxlength="20" placeholder=" jon maken." /><br />
-          <label for="em" class="em"> <i class="fa-solid fa-envelope"></i> </label><br />
-          <input type="email" id="em" required placeholder="....@ hotmail.com" /><br />
-          <label for="ps" class="ps"><i class="fa-solid fa-lock"></i></label><br />
-          <input type="password" id="ps" required minlength="6" maxlength="15" placeholder="Password.... " /><br />
+          <div>
+            <label for="un" class="us"><i class="fa-solid fa-user "></i> </label>
+          <input type="text" id="un" autofocus required minlength="7" maxlength="20" placeholder=" jon maken" /><br />
+          </div>
+          <div>
+            <label for="em" class="em"> <i class="fa-solid fa-envelope"></i> </label>
+            <input type="email" id="em" required  placeholder="..@ hotmail.com"/>
+          </div>
+          <div>
+            <label for="ps" class="ps"><i class="fa-solid fa-lock"></i></label>
+            <input type="password" id="ps" required  minlength="6" maxlength="15" placeholder="Password " />
+          </div>
+          <div>
+            <a href="#">forget my Password ?</a>
+          </div>
           <div class="last">
-            <input type="submit" value="sumbet" />
-            <input type="reset" value="reset" />
+            <input  type="submit" value="sumbet" />
+            <input  type="reset" value="reset" />
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="wn">
+            <label for="wn">Remember me !</label>
           </div>
         </form>
       </div>
-    </main>
-  </div>
-  <footer class="footer">
-    <span>By <a href="https://www.facebook.com/">Ahmed Elbltagy</a> &#9400 2022 </span>
-  </footer>
-</body>
-
+    <footer>
+      <span>By<a href="https://www.facebook.com/">Ahmed Elbltagy</a> &#9400 2022 </span>
+    </footer>
+  </body>
 </html>
