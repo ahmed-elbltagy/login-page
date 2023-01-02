@@ -121,9 +121,9 @@ input::placeholder{
 } 
 .content form :nth-child(4) a{
   color: #a1b1e3;
-  margin-left: 6px;
+  margin-left: 10px;
   transition: .5s;
-    text-transform:capitalize;
+  text-transform:capitalize;
 }
 .content form :nth-child(4) a:hover{
   color: #989797;
@@ -148,13 +148,13 @@ form .last input:hover{
   color:#a1b1e3;
 }
 label{
-  font-size: 20px;
+  font-size:20px;
   cursor: pointer;
   color: #c4c1c1;
 }
 .content form .checkbox{
   margin-top: 10px;
-  margin-left: -37px;
+  margin-left: -32px;
 }
 .content form .checkbox label{
   margin-left: -10px;
@@ -196,10 +196,10 @@ footer span a {
     transform: translatex(-40%);
 }
 .content form :nth-child(4) a{
-  margin-left: 20px;
+  margin-left: 27px;
 }
 .content form .checkbox{
   margin-top: 10px;
-  margin-left: -50px;
+  margin-left: -15px;
 }
 }
