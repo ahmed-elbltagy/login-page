@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="icon" href="imges/logo-1.jpg">
+    <title>Log In</title>
+  </head>
+  <body>
+      <header>
+        <a href="#"><img src="imges/logo-1.jpg" alt="" width="100px"></a>
+        <nav>
+          <ul>
+            <li><a href="#">home</a></li>
+            <li><a href="">services</a></li>
+            <li><a href="">project</a></li>
+            <li><a href="">contact</a></li>
+          </ul>
+          <div class="icon"><i class="fa-solid fa-bars toggle"></i> <i class="fa-solid fa-xmark xmark"></i></div>
+        </nav>
+      </header>
+      <div class="content">
+        <form action="" method="post">
+          <div>
+            <label for="un"><i class="fa-solid fa-user "></i> </label>
+            <input type="text" id="un" autofocus required minlength="7" maxlength="20" placeholder=" Your Name" name="user"  />
+          </div>
+          <div>
+            <label for="em"> <i class="fa-solid fa-envelope"></i> </label>
+            <input type="email" id="em" required  placeholder="Your Email" name="email" />
+          </div>
+          <div>
+            <label for="ps"><i class="fa-solid fa-lock"></i> </label>
+            <input type="password" id="ps" required  minlength="6" maxlength="15" placeholder="Password " name="password" />
+          </div>
+          <div>
+            <a href="#">forget my Password ?</a>
+          </div>
+          <div class="last">
+            <input  type="submit" value="submit" />
+            <input  type="reset"  value="reset" />
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="checkbox" id="wn">
+            <label for="wn">Remember me !</label>
+          </div>
+        </form>
+      </div>
+    <footer>
+      <span>By<a href="https://www.facebook.com/">Ahmed Elbltagy</a> &#9400 2022 </span>
+    </footer>
+    <script src="main.js"></script>
+  </body>
+</html>
