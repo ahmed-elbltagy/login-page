@@ -15,11 +15,11 @@ xmark.onclick = () => {
   ul.classList.remove( "hidden-bottom" );
   ul.classList.add( "hidden-top" );
 };
-  window.addEventListener('mouseup', function (event) {
-    if (event.target != toggle && event.target.parentNode != toggle) {
-      toggle.style.display = "block";
-      xmark.style.display = "none";
-      ul.classList.remove( "hidden-bottom" );
-      ul.classList.add( "hidden-top" );
-    }
-  });
+window.addEventListener('mouseup', function(event) {
+  if (window.innerWidth <= 569 && (event.target !== toggle && event.target.parentNode !== toggle)) {
+    toggle.style.display = "block";
+    xmark.style.display = "none";
+    ul.classList.remove("hidden-bottom");
+    ul.classList.add("hidden-top");
+  }
+});
